@@ -14,12 +14,25 @@
   - 기능 개발/구현용 브랜치
   - 팀원들은 이 브랜치에서 개인의 작업 브랜치를 생성 후, 개별 작업 완료시 이 브랜치로 Merge한다.
     - Merge시 Pull requests를 활용. 충돌 대비와 충돌 발생시의 대처를 모든 팀원이 서포트 할 수 있도록 한다.
+  - QA 및 개인 브랜치는 해당 브랜치에서 파생한다.
 - **개인 작업 Branch**
-  - 생성 브랜치 명 : `이름 이니셜_작업내용`
-    - ex> `KJS_CharacterWalkAnimation`
-    - ex> `CJY_FlowerObjectBugFix`
+  - 생성 브랜치 명 : `Type/작업내용`
+  - 현재 작업중인 파트 표현을 위해 타입과 작업내용은 정확히 기록한다.
+    - Type
+      - `Feat` : 새로운 기능 추가
+      - `Fix` : 기존 기능 및 버그 수정
+      - `Test` : 기능 테스트 전용
+      - `Set` : 프로젝트 설정 등 유니티 자체의 설정
+    - ex> `Feat/CharacterWalkAnimation`
+    - ex> `Fix/FlowerObjectBugFix`
+    - ex> `Test/ObjectOnPlane`
+    - ex> `Set/BuildSetting`
   - 작업 내용이 짧더라도 브랜치 명으로 각자의 작업 진행상황을 공유하기 위해 가급적 정확히 기재한다.
   - 기능 수정 및 구현이 끝나 필요 없어진 브랜치는 팀장 판단 하에 삭제한다.
+- **QA**
+  - 생성 브랜치 명 : `QA/버전명(날짜)`
+  - QA 전용 브랜치, QA전담 인원만 테스트를 위해 접속.
+  - 해당 브랜치 내에서 기능개발 및 수정작업은 하지 않는다
 
 ### Commit
 - **Commit 주기**
