@@ -8,6 +8,6 @@
 - [VPS1팀](https://drive.google.com/drive/folders/1gSYdlBl_PMhx15MQqFTS3GDnUNmcuaLE)
 
 ### 깃허브
-- [프로젝트(아직 링크 없음)]()
+- [프로젝트](https://github.com/Kjaeseong/ItsMyFirstLove)
 - [기획서 전용](https://github.com/Kjaeseong/RocketTeamDocu)
 
